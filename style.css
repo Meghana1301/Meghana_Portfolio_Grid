@@ -8,6 +8,7 @@
     ---main-radius: 10px;
     --main-padding: 10px;
     --line-heightv: 2;
+    --box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 body {
@@ -36,7 +37,7 @@ body h3 {
         "certi achieve"
         "footer footer";
     height: 100vh;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 header {
@@ -49,6 +50,7 @@ header img {
     border-radius: 50%;
     width: 80px;
     height: 80px;
+    margin-left: 5px;
 }
 
 .myText {
@@ -113,6 +115,17 @@ nav ul li a:hover {
     padding: 10px 10px;
     margin: 7px;
     display: inline-block;
+}
+
+#skills:hover,
+#about:hover,
+#experience:hover,
+#education:hover,
+#projects:hover,
+#certfications:hover,
+#achievements:hover {
+    border: 1px solid white;
+    transform: scale(1);
 }
 
 #about {
