@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meghana's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <section class="container">
+    <main class="container">
         <header>
             <img src="./images/profile.png " alt="profile">
             <div class="myText">
@@ -59,70 +59,78 @@
         </section>
         <section id="experience">
             <h3>Work Experience</h3>
-            <img src="./images/planon1.jpeg" alt="planon">
-            <div class="workText">
-                <div class="workTitle">
-                    <p><strong>Planon</strong></p>
+            <article>
+                <img src="./images/planon1.jpg" alt="planon">
+                <div class="workText">
+                    <div class="workTitle">
+                        <p><strong>Planon</strong></p>
+                    </div>
+                    <div class="workRole">
+                        <p>Developer</p>
+                        <p><i class="fa fa-map-marker" id="mapIcon"></i>Hyderabad,India</p>
+                    </div>
                 </div>
-                <div class="workRole">
-                    <p>Developer</p>
-                    <p><i class="fa fa-map-marker" id="mapIcon"></i>Hyderabad,India</p>
+                <p id="duration">July 2022- July 2023</p>
+                <p id="details">Worked as a Software Developer at Planon, where I developed and maintained
+                    enterprise-level software
+                    solutions. My responsibilities included coding in Java, enhancing web-based platforms, collaborating
+                    with cross-functional teams, and implementing data structures and algorithms to improve system
+                    performance. </p>
+            </article>
+            <article>
+                <img src="./images/dbs.png" alt="dbs">
+                <div class="workText">
+                    <div class="workTitle">
+                        <p><strong>DBS</strong>
+                    </div>
+                    <div class="workRole">
+                        <p>Developer</p>
+                        <p><i class="fa fa-map-marker" id="mapIcon"></i>Hyderabad,India</p>
+                    </div>
                 </div>
-            </div>
-            <p id="duration">July 2022- July 2023</p>
-            <p id="details">Worked as a Software Developer at Planon, where I developed and maintained
-                enterprise-level software
-                solutions. My responsibilities included coding in Java, enhancing web-based platforms, collaborating
-                with cross-functional teams, and implementing data structures and algorithms to improve system
-                performance. </p>
-            <img src="./images/dbs.png" alt="dbs">
-            <div class="workText">
-                <div class="workTitle">
-                    <p><strong>DBS</strong>
-                </div>
-                <div class="workRole">
-                    <p>Developer</p>
-                    <p><i class="fa fa-map-marker" id="mapIcon"></i>Hyderabad,India</p>
-                </div>
-            </div>
-            <p id="duration">August 2021-July 2022</p>
-            <p id="details"> Contributed to the development and optimization of financial systems at DBS.
-                Collaborated with a
-                team to create robust solutions in Java and web technologies, focusing on efficiency and
-                scalability. Participated in agile development processes, ensuring timely delivery of key features
-                while enhancing the user experience.</p>
+                <p id="duration">August 2021-July 2022</p>
+                <p id="details"> Contributed to the development and optimization of financial systems at DBS.
+                    Collaborated with a
+                    team to create robust solutions in Java and web technologies, focusing on efficiency and
+                    scalability. Participated in agile development processes, ensuring timely delivery of key features
+                    while enhancing the user experience.</p>
+            </article>
         </section>
         <section id="education">
             <h3>Education</h3>
-            <img src="./images/unh.jpeg" alt="unh">
-            <div class="edText">
-                <div class="edTitle">
-                    <p> <strong>University of New Haven</strong>
+            <article>
+                <img src="./images/unh.jpg" alt="unh">
+                <div class="edText">
+                    <div class="edTitle">
+                        <p> <strong>University of New Haven</strong>
+                    </div>
+                    <div class="edRole">
+                        <p>MS in Computer Science</p>
+                        <p><i class="fa fa-map-marker" id="mapIcon"></i>Connecticut,USA</p>
+                    </div>
                 </div>
-                <div class="edRole">
-                    <p>MS in Computer Science</p>
-                    <p><i class="fa fa-map-marker" id="mapIcon"></i>Connecticut,USA</p>
+                <p id="duration">August 2023-May 2025</p>
+                <p id="details">Key learnings include advanced algorithms, cloud computing, machine learning, and
+                    full-stack development. Worked on real-world projects using React, Node.js, and AWS. Researched data
+                    structures and scalability in distributed systems. Gained experience in DevOps practices, including
+                    CI/CD and containerization using Docker.</p>
+            </article>
+            <article>
+                <img src="./images/cmrit.png" alt="planon">
+                <div class="edText">
+                    <div class="edTitle">
+                        <p><strong>CMRIT</strong></p>
+                    </div>
+                    <div class="edRole">
+                        <p>B.Tech in Computer Science</p>
+                        <p><i class="fa fa-map-marker" id="mapIcon"></i>Hyderabad,India</p>
+                    </div>
                 </div>
-            </div>
-            <p id="duration">August 2023-May 2025</p>
-            <p id="details">Key learnings include advanced algorithms, cloud computing, machine learning, and
-                full-stack development. Worked on real-world projects using React, Node.js, and AWS. Researched data
-                structures and scalability in distributed systems. Gained experience in DevOps practices, including
-                CI/CD and containerization using Docker.</p>
-            <img src="./images/cmrit.png" alt="planon">
-            <div class="edText">
-                <div class="edTitle">
-                    <p><strong>CMRIT</strong></p>
-                </div>
-                <div class="edRole">
-                    <p>B.Tech in Computer Science</p>
-                    <p><i class="fa fa-map-marker" id="mapIcon"></i>Hyderabad,India</p>
-                </div>
-            </div>
-            <p id="duration">August 2019-May 2023</p>
-            <p id="details">Focused on data structures, algorithms, databases, and web development. Gained practical
-                experience through internships and projects, building scalable web apps and optimizing databases.
-                Graduated with a strong foundation in software engineering principles.</p>
+                <p id="duration">August 2019-May 2023</p>
+                <p id="details">Focused on data structures, algorithms, databases, and web development. Gained practical
+                    experience through internships and projects, building scalable web apps and optimizing databases.
+                    Graduated with a strong foundation in software engineering principles.</p>
+            </article>
         </section>
         <section id="projects">
             <h3>Projects</h3>
@@ -194,7 +202,7 @@
                             class="fa fa-twitter"></i>Twitter</a></p>
             </div>
         </footer>
-    </section>
+        </section>
 </body>
 
 </html>
