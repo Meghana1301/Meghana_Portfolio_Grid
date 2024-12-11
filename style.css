@@ -124,7 +124,6 @@ nav ul li a:hover {
 #certfications:hover,
 #achievements:hover {
     border: 1px solid white;
-    transform: scale(1);
 }
 
 #about {
